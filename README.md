@@ -1,2 +1,2 @@
 # Todoapp
-usi
+ToDo website create using HTML,CSS and JS.
