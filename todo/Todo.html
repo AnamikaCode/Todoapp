@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="https://kit.fontawesome.com/cbb28f2d11.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>
+      Task List
+    </h1>
+    <form action="add" id="new-task-form">
+      <input type="text" name="new-task" id="new-task-input" placeholder="what do you have planned?">
+      <button type="submit" id="new-task-submit">
+        <i class="fa-solid fa-plus" style="color: #7d366d;"></i> Add task
+      </button>
+    </form>
+   </header>
+   <main>
+    <section class="task-list">
+      <h2>Tasks</h2>
+      <div id="tasks"></div>
+    </section>
+   </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
